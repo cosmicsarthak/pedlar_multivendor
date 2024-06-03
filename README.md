@@ -20,6 +20,8 @@ composer update --ignore-platform-reqs
 
 ## Add database
 
+> `sql` file is at: here
+
 ```shell
 mysql -u root -p
 ```
