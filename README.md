@@ -20,24 +20,31 @@ composer update --ignore-platform-reqs
 
 ## Add database
 
-> `sql` file is at: here
+> `sql` file is at: [here](https://github.com/cosmicsarthak/sdp-IO18_multivendor/blob/main/database.sql)
+> download this file and link that file as mentioned in _Step-3_ command below to **upload to mySQL database**.
 
 ```shell
+# step 1
+
 mysql -u root -p
 ```
 
 password: `press enter`
 
 ```shell
+# step 2
+
 show databases;
 ```
 
 ```shell
+# step 3
+
 # adding the SQL file to the MySQL database
 mysql -u root -p ecommerce < C:\Users\ASUS\Downloads\database.sql
 ```
 
-> in case of probelms: [refer](https://www.youtube.com/watch?v=0Wm3KcVFMBA)
+> in case of probelms: [refer](https://www.youtube.com/watch?v=0Wm3KcVFMBA) or ask @cosmicsarthak
 
 ---
 
