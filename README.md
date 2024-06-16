@@ -25,6 +25,8 @@ composer update --ignore-platform-reqs
 > `sql` file is at: [here](https://github.com/cosmicsarthak/sdp-IO18_multivendor/blob/main/database.sql)
 > download this file and link that file as mentioned in _Step-3_ command below to **upload to mySQL database**.
 
+> run these commands in **Laragon** `Terminal` option
+
 ```shell
 # step 1
 
