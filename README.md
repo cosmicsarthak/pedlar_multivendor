@@ -7,10 +7,12 @@
 2. Install https://getcomposer.org/Composer-Setup.exe
 3. Install [Laragon](https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe)
 4. After Installing Laragon (follow tutorial sent)
-5. Then clone the github repo in the given path![alt text](image.png)
+5. Then clone the github repo in the given path `C:\laragon\www\<....>` ![alt text](image.png)
 6. Then go to [add database](https://github.com/cosmicsarthak/sdp-IO18_multivendor/blob/main/README.md#add-database)
 7. then link to the downloaded php `.exe` file in laragon like this... ![alt text](image-1.png)
 8. then also add the Apache folder from here as shown. (folder sent on Whatsapp) ![alt text](image-2.png)
+9. Open Laragon, click on Start all
+10. then on right click on Laragon, goto `www` -> select your repository which was mentioned on Step 5 ![alt text](image-3.png)
 
 ```shell
 composer update --ignore-platform-reqs
